@@ -23,7 +23,7 @@ Copy or clone the repo into a folder.
 
 1. I get a 'iptables-restore: not found' error
 
-Run this script as a priviliged user (root, or use sudo), or check if the iptables package is installed on your system.
+   Run this script as a priviliged user (root, or use sudo), or check if the iptables package is installed on your system.
 
 ## Improvements
 
