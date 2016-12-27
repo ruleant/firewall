@@ -2,7 +2,7 @@
 *filter
 :INPUT ACCEPT [0:0]
 :FORWARD DROP [0:0]
-:OUTPUT ACCEPT [26016:2599975]
+:OUTPUT ACCEPT [0:0]
 #-A INPUT -s 127.0.0.1/32 -p tcp -m tcp --dport 80 -j ACCEPT 
 #-A INPUT -s 127.0.0.1/32 -p tcp -m tcp --dport 8080 -j ACCEPT 
 -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT 
