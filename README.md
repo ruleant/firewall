@@ -14,11 +14,11 @@ Copy, unzip or clone the repo into a folder and go to that folder :
 
 ## Start the firewall
 
-    # ./iptables-load
+    # ./firewall-load
 
 ## Reset the firewall
 
-    # ./iptables-reset
+    # ./firewall-reset
 
 ## FAQ
 
