@@ -7,17 +7,18 @@ This script uses the iptables firewall of the linux kernel.
 
 ## Setup
 
-Copy or clone the repo into a folder.
+Copy, unzip or clone the repo into a folder and go to that folder :
+
+    git clone https://github.com/ruleant/firewall.git
+    cd firewall
 
 ## Start the firewall
 
-    cd /path/to/folder
-    ./iptables-load
+    # ./iptables-load
 
 ## Reset the firewall
 
-    cd /path/to/folder
-    ./iptables-reset
+    # ./iptables-reset
 
 ## FAQ
 
