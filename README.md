@@ -12,7 +12,7 @@ Copy, unzip or clone the repo into a folder and go to that folder :
     git clone https://github.com/ruleant/firewall.git
     cd firewall
 
-## Start the firewall
+## Enable the firewall
 
     $ sudo ./firewall-load
 
