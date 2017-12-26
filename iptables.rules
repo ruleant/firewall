@@ -2,7 +2,9 @@
 :INPUT ACCEPT [0:0]
 :FORWARD DROP [0:0]
 :OUTPUT ACCEPT [0:0]
+-A INPUT -i lo -j ACCEPT
 -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT 
 -A INPUT -j DROP
+-A OUTPUT -o lo -j ACCEPT
 -A OUTPUT -m conntrack --ctstate ESTABLISHED -j ACCEPT
 COMMIT
